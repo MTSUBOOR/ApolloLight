@@ -39,15 +39,15 @@ def sample_analyze_entities(text_content):
       #   tempSalience = u"{}".format(entity.salience)
       #   data_set[u"{}".format(entity.name)][2] = data_set[u"{}".format(entity.name)][2] + 1
       #   data_set[u"{}".format(entity.name)][1] = data_set[u"{}".format(entity.name)][1] + tempSalience
-    print(data_set,"\n")
-    print("dataset Length is: ", len(data_set))
+    # print(data_set,"\n")
+    # print("dataset Length is: ", len(data_set))
     i = 0      
     while 1:
       x = i + 1
       if i == len(data_set):
         break
-      print(i)
-      print(len(data_set))
+      # print(i)
+      # print(len(data_set))
       uniqEnt = data_set[i][0]
       uniSal = float(data_set[i][1])
       # print("starting hunt for clones at index: ", x)
