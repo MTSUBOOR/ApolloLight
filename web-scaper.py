@@ -16,8 +16,8 @@ import os
 
 # Setting up our URL
 # URL = 'https://www.nytimes.com/2021/09/18/world/covid-trash-recycling.html?searchResultPosition=1'
-URL = 'https://www.nytimes.com/live/2021/09/18/world/covid-delta-variant-vaccine'
-# URL = 'https://www.nytimes.com/2021/09/18/opinion/sunday/manchin-vote-voting-bill.html'
+# URL = 'https://www.nytimes.com/live/2021/09/18/world/covid-delta-variant-vaccine'
+URL = 'https://www.nytimes.com/2021/09/18/opinion/sunday/manchin-vote-voting-bill.html'
 # URL = 'https://www.usatoday.com/story/news/politics/2021/09/17/justice-j-6-organizer-ex-trump-staffer-election-fraud-promoter/8379295002/'
 # URL = 'https://www.usatoday.com/story/tech/reviewedcom/2018/11/07/the-20-best-gifts-for-mom-that-shell-actually-want/38368663/'
 # URL = 'https://www.usatoday.com/story/news/nation/2021/09/18/gabby-petito-still-not-found-authorities-searching-brian-laundrie/8397320002/'

@@ -8,9 +8,44 @@
     <link rel="stylesheet" href="css/general.css">
     <title>Bare-Journalism</title>
 </head>
-<body>  
-    <input type="text" placeholder="Input Author" id="myInput">
-    <button type="button" id="clickThis">submit</button>
+<body> 
+    <div class="header">
+        <img src="./images/Logo-Text.png" alt="">    
+    </div>
+    <!-- Rounded switch 
+    <label class="switch">
+        <input type="checkbox">
+        <span class="slider round"></span>
+    </label> -->
+    <h3>Author</h3>
+    
+    <h4>** TEXT HERE SHOWS IF AUTHOR WAS FOUND OR NOT ** </h4>
+    <h4>** Author Found! ** </h4>
+    <h4>** Author Not Found! Please Input Their Name Below! ** </h4>
+    <div class="author-info">
+        <input type="text" placeholder="Input Author" id="myInput">
+        <br></br>
+        <button class="button" type="button" id="clickThis">Submit</button>
+    </div>
+    
+    <h4 style="color: green;">Results are ready!</h4>
+    <h4 style="color: red;">Results are are NOT ready!</h4>
+    <table class="center">
+        <tr>
+          <th>Topic</th>
+          <th>Relevance*</th> 
+          <th>Sentiment</th>
+        </tr>
+        <tr>
+          <td>Stress</td>
+          <td>98%</td> 
+          <td>Positive</td>
+        </tr>
+      </table>
+
+      <h5>*Relevance: How often this topic is revealed in said article</h5>
+      
+
     <p id="demo"></p>
     <!-- <button id="changeColor"></button> -->
     <script src="./popup.js"></script>
