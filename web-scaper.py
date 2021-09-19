@@ -8,6 +8,9 @@ import tkinter as tk
 from tkinter import filedialog, Text
 import os
 
+from flask import Flask
+
+
 # https://realpython.com/beautiful-soup-web-scraper-python/#why-scrape-the-web
 # This website is great for getting started!
 
@@ -23,6 +26,14 @@ URL = 'https://www.nytimes.com/2021/09/18/opinion/sunday/manchin-vote-voting-bil
 # URL = 'https://www.usatoday.com/story/news/nation/2021/09/18/gabby-petito-still-not-found-authorities-searching-brian-laundrie/8397320002/'
 page = requests.get(URL)
 soup = BeautifulSoup(page.content, 'html.parser')
+
+
+app = Flask(__name__)
+
+@app.route("/")
+
+def analyze_url():
+    return articleInfo(URL)
 
 # Global variable used for our author(s) and text
 authorList = []
@@ -157,7 +168,7 @@ def articleInfo(url):
         #     print(str(text))
         #     newSoup = BeautifulSoup(text, 'html.parser')
         #     textArray.append(newSoup.p.string)
-            
+    return authorList        
             
 
     # Output of our information
@@ -175,4 +186,4 @@ def articleInfo(url):
 
 
 #### Running ####
-articleInfo(URL)
+
