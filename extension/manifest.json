@@ -1,6 +1,6 @@
 {
-    "name": "Getting Started Example",
-    "description": "Build an Extension!",
+    "name": "Apollo Light",
+    "description": "Helping shed light on biased articles in the news.",
     "version": "1.0",
     "manifest_version": 3,
     "background": {
@@ -11,14 +11,14 @@
         "default_popup": "index.html"
       },
       "default_icon": {
-        "16": "/images/bear-16.png",
-        "48": "/images/bear-48.png",
-        "128": "/images/bear-128.png"
+        "16": "/images/Logo.png",
+        "48": "/images/Logo.png",
+        "128": "/images/Logo.png"
       },
       "icons": {
-        "16": "/images/bear-16.png",
-        "48": "/images/bear-48.png",
-        "128": "/images/bear-128.png"
+        "16": "/images/Logo.png",
+        "48": "/images/Logo.png",
+        "128": "/images/Logo.png"
       }
   
   }
