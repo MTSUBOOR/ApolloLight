@@ -1,19 +1,25 @@
 # ApolloLight
-A chrome extension that reveals author biases, to contextualize their journalism
-![alt text](https://github.com/mtsuboor/ApolloLight//tree/main/extension/images/Logo.png
-![alt text](https://github.com/mtsuboor/ApolloLight//tree/main/extension/images/Pending.JPG
-![alt text](https://github.com/mtsuboor/ApolloLight//tree/main/extension/images/goodCloseup.JPG
-![alt text](https://github.com/mtsuboor/ApolloLight//tree/main/extension/images/good.JPG
-![alt text](https://github.com/mtsuboor/ApolloLight//tree/main/extension/images/Inputit.JPG
-![alt text](https://github.com/mtsuboor/ApolloLight//tree/main/extension/images/failed.jpg
+<img width="100" src="https://github.com/MTSUBOOR/ApolloLight/blob/main/extension/images/Logo.png?raw=true">
 
-<img width="100" height="100" src="https://github.com/colinmarsch/dawn/raw/main/resources/icon.png?raw=true">
+#### A chrome extension that reveals author biases, to contextualize their journalism
+#### All you need to to do is navigate to a newssite/publication and the chrome extension will automatically begin its search
+#### The application will search for all articles by the author of the article you are currently visiting and aggregate sentiment data on their most common topics and display it, in order to give you an overall view of the author's biases on the subjects they typically write about
 
 <p align="center">
-  <img width="19%" src="https://github.com/colinmarsch/dawn/raw/main/resources/main.jpg?raw=true">
-  <img width="19%" src="https://github.com/colinmarsch/dawn/raw/main/resources/main_dark.jpg?raw=true">
-  <img width="19%" src="https://github.com/colinmarsch/dawn/raw/main/resources/streak_dialog.jpg?raw=true">
-  <img width="19%" src="https://github.com/colinmarsch/dawn/raw/main/resources/use.jpg?raw=true">
-  <img width="19%" src="https://github.com/colinmarsch/dawn/raw/main/resources/stay.jpg?raw=true">
+  
+  <img width="24%" src="https://github.com/MTSUBOOR/ApolloLight/blob/main/extension/images/pending.JPG">
+  <img width="24%" src="https://github.com/MTSUBOOR/ApolloLight/blob/main/extension/images/goodCloseup.JPG">
+  <img width="24%" src="https://github.com/MTSUBOOR/ApolloLight/blob/main/extension/images/Inputit.JPG">
+  <img width="24%" src="https://github.com/MTSUBOOR/ApolloLight/blob/main/extension/images/failed.JPG">
+
 </p>
-![Image of Yaktocat](https://github.com/mtsuboor/ApolloLight//tree/main/extension/images/Logo.png)
+
+#### the images above show what it looks like if/when
+* the application is still working on extracting and displaying data
+* a closeup of a successful lookup
+* the author cannot be automatically extracted
+* the search fails (this was a HTN 2021 project, it isn't perfect yet)
+#### in that order
+
+#### the following is fullscreen screenshot, including the article itself, of a successful lookup (if there are multiple authors, currently the first one is used)
+  <img width="auto" src="https://github.com/MTSUBOOR/ApolloLight/blob/main/extension/images/good.JPG">
